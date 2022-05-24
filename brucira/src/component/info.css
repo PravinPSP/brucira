@@ -1,0 +1,90 @@
+.info-1{
+    margin-top: 100px;
+}
+.info-1-2 > h1{
+    font-size: 50px;
+}
+.info-1-2 > button{
+    width: 200px;
+    font-size: 15px;
+}
+
+
+/* coursal css */
+
+.info-2-2{
+margin-top: 40px;  
+
+}
+
+.item{
+    height: 400px;
+    width: 425px;
+    border: 1px solid grey;
+  
+  
+}
+#i-1{
+    background-image: url('../photos/girl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i-2{
+    background-image: url('../photos/code.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i-3{
+    background-image: url('../photos/team.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i-4{
+    background-image: url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i-5{
+    background-image: url("https://www.w3schools.com/w3css/img_lights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#i-6{
+    background-image: url("https://d5nunyagcicgy.cloudfront.net/external_assets/hero_examples/hair_beach_v391182663/original.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#i-7{
+    background-image: url("https://www.w3schools.com/howto/img_forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.react-multiple-carousel__arrow {
+
+    width: 40px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .info-1{
+        margin-top: 100px;
+
+    }
+    .info-1-2 > h1{
+        font-size: 40px;
+    }
+    .info-2-2{
+    width: 366px;        
+    }
+    .item{
+        height: 400px;
+        width: 425px;
+      
+    }
+
+}
